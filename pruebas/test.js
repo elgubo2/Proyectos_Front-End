@@ -7,7 +7,8 @@ haga un loop de 0 a 100 mostrando en la consola cada número del loop.
 En caso de que el número de la iteración sumado con el número pasado por parámetro,
 sea par, mostrá en la consola “El número x es par”.
 
-
+*/
+/*
 function loopDePares(x){
 
     for(i=0 ;i<101 ;i++){
@@ -22,9 +23,32 @@ function loopDePares(x){
     }
     
     }
-    loopDePares(1);
+    loopDePares(12);
+
+*/
+
+/*
+
+function loopDePares(n) {
+
+    for (i = 0; i < 101; i++) {
+        ((i + n) % 2 == 0) ? espar(i) : esinpar(i);
+    }
+
+}
+
+function espar(i) {
+    console.log(i + " mas el numero pasado por parametro da par");
+}
+
+function esinpar(i) {
+    console.log(i)
+}
+
+loopDePares(12);
 
 
+/*
     2. Loop de impares con palabra
 Debés crear una función llamada loopDeImpares que reciba como parámetro un número
 y una palabra y haga un loop de 0 a 100 mostrando en la consola cada número del loop.
@@ -76,10 +100,18 @@ Ejemplo:
 
 function nuevoArreglo(num) {
 
+    var arreglo = [];
     for (i = 0; i < num; i++) {
-        var arreglo = [];
         arreglo.push(i);
+
     }
+
     console.log(arreglo);
+    return(arreglo)  ;
+
 }
 nuevoArreglo(4);
+
+var arreglo2= nuevoArreglo(7);
+
+alert(arreglo2);
