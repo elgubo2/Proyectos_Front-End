@@ -1,0 +1,61 @@
+.navbar-default {
+    margin:0px;
+    }
+    
+
+
+    
+    .jumbotron{
+    
+    background-image: url(../landing/imagenes/2.jpg);
+    background-size: cover;
+    margin: 0px;
+    
+    
+    
+    }
+    
+    
+    .celeste{
+    
+    
+        background-color: #4ab9e9;
+        color:white;
+        text-align: center;
+        padding: 1em;
+        
+    
+    }
+    
+    
+    img{
+        width: 120px;
+        height: 40px;
+    }
+    
+    
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
+    #logo{
+    
+        width: 100px;
+        height: 65px;
+    
+    }
+    
+    #tarj{
+        width: 115px;
+        height: 105px;
+    }
+    
+    .footer1{
+        background:#f7f6f5;
+    
+    }
+    
+    
+    
+  
