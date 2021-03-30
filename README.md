@@ -16,6 +16,9 @@ Son algunos de mis proyectos en html, css, js y jquery.
 Probarlos en linea:
 
 1- https://pruebagus.ml/clase15_colorGame/
+
 2- http://pruebagus.ml/clase18_clima/
+
 3- no subido aun.
+
 4- http://pruebagus.ml/clase17_toDoList/
