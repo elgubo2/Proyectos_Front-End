@@ -15,10 +15,10 @@ Son algunos de mis proyectos en html, css, js y jquery.
 
 Probarlos en linea:
 
-1- https://pruebagus.ml/clase15_colorGame/
+1- https://elgubo2.github.io/Proyectos_Front-End/1-JuegoDeColores/
 
-2- http://pruebagus.ml/clase18_clima/
+2- http://pruebagus.ml/clase18_clima/    
 
 3- no subido aun.
 
-4- http://pruebagus.ml/clase17_toDoList/
+4- https://elgubo2.github.io/Proyectos_Front-End/4-AplicacionBlocDeNotas/
