@@ -8,7 +8,7 @@ function test(data) {
     $('#velocidad').text(": " + data.wind.speed);
 
 }
-$.get('http://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires&appid=95176c8edea30e33338e0eaddd53a916').success(test);
+$.get('https://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires&appid=95176c8edea30e33338e0eaddd53a916').success(test);
 document.querySelector("p").innerHTML="<p>Buenos Aires</p>";
 
 //botones
@@ -53,7 +53,7 @@ else{
 
     $("ul").html("<h2>Estamos buscando los datos</h2>")
 
-    $.get('http://api.openweathermap.org/data/2.5/weather?q=' + ciudad + '&appid=95176c8edea30e33338e0eaddd53a916').success(cargado).fail( function( jqXHR, textStatus, errorThrown ) {
+    $.get('https://api.openweathermap.org/data/2.5/weather?q=' + ciudad + '&appid=95176c8edea30e33338e0eaddd53a916').success(cargado).fail( function( jqXHR, textStatus, errorThrown ) {
         alert( 'Ciudad no encontrada' );
     });
 
